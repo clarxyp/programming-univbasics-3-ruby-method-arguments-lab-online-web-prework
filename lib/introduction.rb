@@ -1,5 +1,6 @@
-def introduction("Josh")
-  puts "Hi, my name is #{"Josh"}.\n"
+name = "Josh"
+def introduction(name)
+  puts "Hi, my name is #{name}.\n"
 end
 
-introduction("Josh")
+puts introduction(name)
