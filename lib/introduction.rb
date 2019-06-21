@@ -4,3 +4,6 @@ def introduction(name)
 end
 
 puts introduction(name)
+
+name = "Dan"
+puts introduction(name)
