@@ -11,7 +11,7 @@ puts introduction(name)
 language = "Ember.js"
 
 def introduction_with_language(name, language)
-  puts "Hi, my name is #{name} and I am learning to program in #(language}.\n"
+  puts "Hi, my name is #{name} and I am learning to program in #{language}.\n"
 end
 
 puts introduction_with_language(name, language)
