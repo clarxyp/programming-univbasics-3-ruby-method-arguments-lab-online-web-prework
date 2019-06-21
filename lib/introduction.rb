@@ -15,3 +15,11 @@ def introduction_with_language(name, language)
 end
 
 puts introduction_with_language(name, language)
+
+language = 
+
+def introduction_with_language(name, language = "Ruby")
+  puts "Hi, my name is #{name} and I am learning to program in #{language}.\n"
+end
+
+puts introduction_with_language(name, language)
